@@ -29,7 +29,7 @@ To batch-mint NFTs using the deployed ERC721 contract, run the following command
 
 
 
-npx hardhat run scripts/batchMint.js --network goerli
+npx hardhat run scripts/batchMint.js --network mumbai
 
 
 This script will mint the specified number of NFTs and assign them to your address.
