@@ -2,9 +2,9 @@ const hre = require("hardhat");
 const tokenContractJSON = require("../artifacts/contracts/Alam.sol/Alam.json");
 require('dotenv').config()
 
-const tokenAddress = "0x4657F976bCC318B157D9bd6AC4C1268f56979B0f"; // place your erc721 contract address here
+const tokenAddress = ""; // place your erc721 contract address here
 const tokenABI = tokenContractJSON.abi;
-const walletAddress = "0xc9c652DE83AE799549a6Fc0306cBd0eB5bc0899b"; // place your public address for your wallet here
+const walletAddress = ""; // place your public address for your wallet here
 
 async function main() {
 
